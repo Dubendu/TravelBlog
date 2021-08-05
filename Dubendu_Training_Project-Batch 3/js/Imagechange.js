@@ -1,0 +1,57 @@
+$(document).ready(function(){
+/*
+    $('#changeimage').mouseenter(function(){
+        let path=$(this).attr('src');
+        $(this).attr('src',"img/Leh-Ladakh.webp");
+    });*/
+    $('#leh').mouseenter(function(){
+        $('.blog-post-content').not('#leh').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Leh-Ladakh.webp");
+        });
+    });
+    $('#nainital').mouseenter(function(){
+        $('.blog-post-content').not('#nainital').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Nainital-Uttarakhand.jpg");
+        });
+    });
+    $('#manali').mouseenter(function(){
+        $('.blog-post-content').not('#manali').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Manali-Himachal-Pradesh.webp");
+        });
+    });
+    $('#mussoorie').mouseenter(function(){
+        $('.blog-post-content').not('#mussoorie').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Mussoorie-Uttarakhand.webp");
+        });
+    });
+    $('#gulmarg').mouseenter(function(){
+        $('.blog-post-content').not('#gulmarg').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Gulmarg-Jammu-and-Kashmir.webp");
+        });
+    });
+    $('#darjeeling').mouseenter(function(){
+        $('.blog-post-content').not('#darjeeling').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Darjeeling-West-bengal.webp");
+        });
+    });
+    $('#shillong').mouseenter(function(){
+        $('.blog-post-content').not('#shillong').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Shillong-Meghalaya.webp");
+        });
+    });
+    $('#gangtok').mouseenter(function(){
+        $('.blog-post-content').not('#gangtok').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Gangtok-Sikkim.webp");
+        });
+    });
+    $('#chamba').mouseenter(function(){
+        $('.blog-post-content').not('#chamba').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Chamba-Himachal-Pradesh.webp");
+        });
+    });
+    $('#tawang').mouseenter(function(){
+        $('.blog-post-content').not('#tawang').fadeOut(function(){
+            $('#changeimage').attr('src',"img/Tawang-Arunachal-Pradesh.webp");
+        });
+    });
+});
